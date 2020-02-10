@@ -1,0 +1,79 @@
+.login{
+    background-color: rgb(168, 0, 0);
+    width: 60%;
+    text-align: center;
+    line-height: 30px;
+    height: 600px;
+    /* margin-bottom: 100px; */
+    margin-left: 300px;
+    
+}
+.login .page{
+    padding-top: 70px;
+}
+
+.login .page legend{
+    color: #ffffff;
+}
+.login .page p{
+    color: #ffffff;
+    
+}
+
+.login .page input{
+    height: 45px;
+    width: 500px;
+    margin: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+}
+
+.login .page .button input{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.login .page .button input:hover{
+    background-color: burlywood;
+}
+.register{
+    background-color: rgb(168, 0, 0);
+    width: 80%;
+    text-align: center;
+    line-height: 30px;
+    height: 1000px;
+    /* margin: 100px; */
+    margin-left: 150px;
+    border-radius: 50px 0px 50px 0px;
+}
+.register .menu input{
+    height: 45px;
+    width: 800px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+}
+.register .menu .show{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.register .menu .show input{
+    width: 380px;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.register .menu .button input{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.register .menu .button input:hover{
+    background-color: burlywood;
+}
+
+
+

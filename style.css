@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+header{
+    background:  url(./Images/computers.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.header2{
+    background: rgb(168, 0, 0);
+    background-size: cover;
+    width: 100%
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+}
+nav img{
+    width: 100px;
+    padding: 10px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+    
+}
+nav ul{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    
+}
+.navbar-dark{
+    color: white;
+}
+nav ul li a:hover{
+    border-bottom: solid white;
+    border-radius: none;
+    font-size: 20px;
+}
+.brand-name{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background: black;
+    opacity: .6;
+    overflow: hidden;
+    
+    padding: 40px;
+    /* line-height: 5px; */
+}
+.brand-name h2{
+    font-size: 26px;
+}
+.brand-name h3{
+    color: rgb(252, 196, 196);
+    padding-top: 2px;
+}
+.brand-name input{
+    background: rgb(168, 0, 0);
+    border: none;
+    border-radius: 30px;
+    padding: 20px 50px;
+    color: white;
+}
+.brand-name h6{
+    line-height: 30px
+}
+.brand-name input:hover{
+    background: black;
+    border: solid white;
+    transition: all 1s;
+}
+.classes img:hover{
+    filter: grayscale(0%);
+    transition: all 1s;
+    transform: scale(1.1);
+}
+.classes{
+    margin: 10px auto;
+}
+.classes img{
+    width: 300px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+    /* margin: 5px 10px; */
+    border-radius: 30px;
+}
+.lib-content{
+    /* border: solid red; */
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px;
+    /* display: flex; */
+}
+.lib-content input{
+    background: rgb(168, 0, 0);
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.lib-image{
+    padding: 5px;
+    width: 100%;
+}
+form{
+    text-align: center;
+    margin: 10px auto;
+    color: white;
+}
+form input{
+    background: rgb(165, 165, 165);
+    margin: 5px auto;
+    border: solid black;
+    color: black;
+    text-align: center;
+}
+form textarea{
+    background: transparent;
+    border: solid black;
+    text-align: center;
+}
+form input:hover{
+    background: white;
+    transition: all 1s; 
+}
+form textarea:hover{
+    background: white;
+    transition: all 1s;
+}
+.form-group{
+    opacity: .8;
+    color: white;
+}
+.lib-image img{
+    height: 300px;
+}
+footer{
+    background: rgb(148, 0, 0);
+    width: 100%;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+    padding: 10px;
+}
+.footer-section{
+    /* background: rgb(12, 0, 0); */
+    width: 100%;
+    padding: 10px 30px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+.footer-section a{
+    color:  white;
+    text-decoration: none;
+}
+.copyright{
+    background: rgb(139, 0, 0);
+    width: 100%;
+    text-align: center;
+    color: white;
+    /* font-size: 20px; */
+    padding: 20px 0px;
+}
